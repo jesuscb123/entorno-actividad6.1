@@ -3,32 +3,13 @@
 ### 1. Crea el diagrama de uso haciendo uso de platuml, representado los actores y casos de uso que identifiques en los requisitos.
 
 En canva:
-![image](https://github.com/user-attachments/assets/2e5647cc-dd75-4ed6-87b8-cede01dddef7)
+![image](https://github.com/user-attachments/assets/3ffb739e-f567-4b16-82e8-aaec29f2e5c2)
+
 
 Con plantUML:
 
-@startuml
-actor Cliente
+![image](https://github.com/user-attachments/assets/2d1b0b2c-552e-4eea-ad21-1ff1d0e32823)
 
-Cliente --> (Validarse en el sistema)
-
-(Validarse en el sistema) --> (Sacar dinero)
-
-(Validarse en el sistema) --> (Hacer transferencia)
-
-(Validarse en el sistema) --> (Realizar ingreso)
-
-(Sacar dinero) --> (Verificar saldo suficiente)
-
-(Sacar dinero) --> (Verificar límite diario)
-
-(Sacar dinero) -down-> (Avisar saldo insuficiente)
-
-(Sacar dinero) -down-> (Avisar límite diario)
-
-@enduml
-
-![image](https://github.com/user-attachments/assets/2d1e0e3e-3e94-4fa6-b89d-a3826f1e605b)
 
 ### 2. Describe, haciendo uso de la plantilla, al menos el caso de uso "Sacar dinero", con las interacciones que tiene entre el actor y el caso de uso.
 
